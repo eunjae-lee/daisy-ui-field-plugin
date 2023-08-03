@@ -45,8 +45,10 @@ export default {
           '--animation-input': '.2s',
 
           '--btn-text-case': 'normal-case',
-          '--navbar-padding': '.5rem',
+          '--btn-focus-scale': '0.99',
           '--border-btn': '1px',
+          '--tab-border': '1px',
+          '--tab-radius': '0.5rem',
         },
       },
     ],
