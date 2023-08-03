@@ -18,7 +18,7 @@ const Counter: FunctionComponent = () => {
       <h2 className="text-lg font-medium mb-2">Field Value</h2>
       <div className="py-6 text-2xl font-bold text-center">{label}</div>
       <button
-        className="btn w-full"
+        className="btn btn-primary w-full"
         onClick={handleIncrement}
       >
         Increment
