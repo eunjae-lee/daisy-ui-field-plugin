@@ -9,7 +9,7 @@ const ModalToggle: FunctionComponent = () => {
 
   return (
     <div>
-      <h2>Modal</h2>
+      <h2 className="text-lg font-medium mb-2">Modal</h2>
       <button
         className="btn w-full"
         type="button"

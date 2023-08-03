@@ -18,8 +18,8 @@ const AssetSelector: FunctionComponent = () => {
   }
 
   return (
-    <div className="asset-selector">
-      <h2>Asset Selector</h2>
+    <div>
+      <h2 className="text-lg font-medium mb-2">Asset Selector</h2>
       {asset && (
         <img
           src={asset.filename}

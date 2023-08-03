@@ -1,4 +1,3 @@
-import './example.css'
 import Counter from './Counter'
 import ModalToggle from './ModalToggle'
 import AssetSelector from './AssetSelector'
@@ -37,11 +36,11 @@ const FieldPlugin: FunctionComponent = () => {
           <span className="sr-only">Close Modal</span>
         </button>
       )}
-      <div className="container">
+      <div className="container bg-base-100">
         <Counter />
-        <hr />
+        <div className="divider"></div>
         <ModalToggle />
-        <hr />
+        <div className="divider"></div>
         <AssetSelector />
       </div>
     </div>
